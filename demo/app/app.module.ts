@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { NgxRemoteDesktopModule } from '../../src';
-import { HttpModule } from '@angular/http';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule } from '@angular/forms';
@@ -17,6 +16,7 @@ import {
 } from './components';
 import { OverlayContainer, FullscreenOverlayContainer } from '@angular/cdk/overlay';
 import { FileSizePipe } from './pipes';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -27,7 +27,7 @@ import { FileSizePipe } from './pipes';
   imports: [
     BrowserModule,
     NgxRemoteDesktopModule,
-    HttpModule,
+    HttpClientModule,
     MatSnackBarModule,
     CodemirrorModule,
     FormsModule,
