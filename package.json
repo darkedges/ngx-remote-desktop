@@ -74,10 +74,10 @@
   "devDependencies": {
     "@compodoc/compodoc": "1.1.10",
     "@ctrl/ngx-codemirror": "2.1.0",
-    "@ng-bootstrap/ng-bootstrap": "5.1.0",
+    "@ng-bootstrap/ng-bootstrap": "7.0.0",
     "angular2-template-loader": "^0.6.2",
     "autoprefixer": "^9.6.1",
-    "awesome-typescript-loader": "~5.2",
+    "awesome-typescript-loader": "5.2.1",
     "clean-webpack-plugin": "~0.1",
     "codemirror": "^5.48.2",
     "cpx": "^1.5.0",
